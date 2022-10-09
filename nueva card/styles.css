@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(72,152,215,1) 35%, rgba(132,221,84,1) 100%);
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+font-weight: bold;
+padding-top: 20;
+}
+.card{
+    width: 400px;
+    height: 500px;
+    background: lightcyan;
+    border-radius: 30px;
+    box-shadow: 0 0 20px black;
+    margin: 50px auto;
+    position: relative;
+    top: 100px;
+}
+.header{
+    width: 400px;
+    height: 100px;
+    border-radius: 30px 30px 0 0;
+    background-color: #e4b5f1;
+    background-image:url(https://www.creativefabrica.com/wp-content/uploads/2020/04/23/Pattern-Graphics-3936160-1-580x435.jpg)
+}
+img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    background: 
+    linear-gradient(rgb(139, 0, 116), rgb(199, 138, 230) ) padding-box,
+    linear-gradient(to right, rgb(139, 0, 116), rgb(199, 138, 230)) border-box;
+border-radius: 50%;
+border: 4px solid transparent;
+margin: auto;
+position: relative;
+top: 50px;
+}
+.body{
+    text-align: center;
+    position: relative;
+top: 10%;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    border-top: 5px solid gray;
+}
+.dato{
+    display: inline-block;
+}
+.claro{
+    color: rgb(171, 153, 153);
+    opacity: 0.6;
+}
+.texto{
+    position: relative;
+    top: 90px;
+    font-size: 35px;
+    text-shadow: 0 5px 5px gray;
+}
+.numero{
+    font-size: 35px;
+    text-shadow:0 5px gray  ;
+    font-weight: bolder;
+}
+.tipo{
+    font-size: 15px;
+    color: gray;
+}
